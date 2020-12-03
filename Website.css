@@ -1,17 +1,23 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: rgb(2,0,36);
-  background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(252,248,234,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,27,27,1) 0%, rgba(34,34,34,1) 100%);
 }
 
-.container {
+.frontpage {
   position: relative;
   text-align: center;
 }
 
-.centered {
+.frontimage img {
+  border-radius: 50px;
+  filter: blur(3px)
+}
+
+.centeredname {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  filter: drop-shadow(8px 8px 3px);
 }
